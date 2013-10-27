@@ -37,3 +37,4 @@ function rm-osx-cruft {
   \) -print0 | xargs -0 rm -rf
 }
 
+alias fixairplay="sudo pkill coreaudiod"
