@@ -1,0 +1,2 @@
+# Update module into most recent version
+npm install $1@`npm info $1 version` --save
