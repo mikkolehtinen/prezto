@@ -180,3 +180,13 @@ alias gwC='git clean -f'
 alias gwx='git rm -r'
 alias gwX='git rm -rf'
 
+# Misc collection of aliases I'm used to
+alias gst='git status -sb'
+alias gup='git pull --rebase && git submodule update'
+alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+alias gupmaster='git pull origin master'
+alias gres='git reset --hard && git clean -f'
+alias gunstage='git reset HEAD'              # remove files from index (tracking)
+alias guncommit='git reset --soft HEAD^'     # go back before last commit, with files in uncommitted state
+alias grev1='git reset --hard HEAD~1' #revert last commit
+alias gamend='git commit -a --amend'

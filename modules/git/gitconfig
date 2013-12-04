@@ -161,3 +161,5 @@
   
 [credential]
 	helper = osxkeychain
+[user]
+	email = mikko+gh@applifier.com

@@ -35,7 +35,8 @@ zstyle ':prezto:load' pmodule \
   'node' \
   'osx' \
   'completion' \
-  'prompt'
+  'prompt' \
+  'custom'
 
 #
 # Editor
