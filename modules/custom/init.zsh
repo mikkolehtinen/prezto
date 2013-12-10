@@ -1,3 +1,6 @@
-alias cdaproj="cd ~/Work/Projects/"
+alias cdproj="cd ~/Work/Projects/"
 alias cdappl="cd ~/Work/Projects/Applifier/"
 alias reloadshell="source ~/.zshrc"
+alias startmongo="mongod run --config /usr/local/etc/mongod.conf --port 30002 -vv"
+alias startredis="redis-server /usr/local/etc/redis.conf"
+alias startpg="postgres -D /usr/local/var/postgres -p 5432"
