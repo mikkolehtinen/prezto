@@ -27,6 +27,10 @@ version is 4.3.10.
           ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
         done
 
+    Optionally link to:
+
+        ln -s ./.zprezto/modules/git/gitconfig ${ZDOTDIR:-$HOME}/.gitconfig
+
   4. Set Zsh as your default shell:
 
         chsh -s /bin/zsh
