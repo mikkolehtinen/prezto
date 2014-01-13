@@ -74,3 +74,10 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
+source_if() { # {{{2
+    [[ -s "$1" ]] && source "$1"
+}
+
+#NVM
+source_if "$HOME/.nvm/nvm.sh"
+export PATH=$PATH:$HOME/nvm/v0.10.24/bin
